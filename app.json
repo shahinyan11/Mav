@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Versus",
+    "slug": "versus",
+    "version": "0.0.3",
+    "privacy": "unlisted",
+    "orientation": "portrait",
+    "icon": "./common/assets/icon.png",
+    "splash": {
+      "image": "./common/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.mavenarena.vs",
+      "buildNumber": "0.0.3",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.mavenarena.vs",
+      "versionCode": 430000003,
+      "adaptiveIcon": {
+        "foregroundImage": "./common/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./common/assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@stripe/stripe-react-native",
+        {}
+      ]
+    ],
+    "description": ""
+  }
+}

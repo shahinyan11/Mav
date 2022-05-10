@@ -1,0 +1,18 @@
+{
+  "build": {
+    "release": {},
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    }
+  },
+  "submit": {
+    "release": {
+      "ios": {
+        "appleId": "clay@unicorn.love",
+        "ascAppId": "1577860250",
+        "appName": "Maven Arena: VS"
+      }
+    }
+  }
+}

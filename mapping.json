@@ -1,0 +1,116 @@
+{
+  "components": {
+    "Button": {
+      "meta": {},
+      "appearances": {
+        "filled": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "control": {
+                "textColor": "#000",
+                "state": {
+                  "disabled": {
+                    "textColor": "#888888",
+                  }
+                }
+              },
+              "info": {
+                "backgroundColor": "#F5E800",
+                "textColor": "#F5E800",
+                "state": {
+                  "disabled": {
+                    "backgroundColor": "rgba(255, 255, 255, 0.2)",
+                    "textColor": "#FFF"
+                  }
+                }
+
+              }
+            }
+          }
+        }
+      }
+    },
+    "CheckBox": {
+      "meta": {},
+      "appearances": {
+        "default": {
+          "mapping": {
+            "width": 20,
+            "height": 20,
+            "borderRadius": 3,
+            "borderWidth": "border-width",
+            "outlineWidth": 32,
+            "outlineHeight": 32,
+            "outlineBorderRadius": 6,
+            "outlineBackgroundColor": "transparent",
+            "textFontSize": "text-subtitle-2-font-size",
+            "textFontWeight": "text-subtitle-2-font-weight",
+            "textFontFamily": "text-subtitle-2-font-family",
+            "textMarginHorizontal": 12,
+            "iconWidth": 12,
+            "iconHeight": 12,
+            "iconTintColor": "transparent"
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "borderColor": "rgba(255,255,255, 1)",
+                "backgroundColor": "transparent",
+                "textColor": "text-basic-color",
+                "state": {
+                  "checked": {
+                    "borderColor": "rgba(0,0,0, 1)",
+                    "backgroundColor": "rgba(0,0,0, 1)",
+                    "iconTintColor": "rgba(255,255,255, 1)"
+                  },
+                  "indeterminate": {
+                    "borderColor": "color-primary-default-border",
+                    "backgroundColor": "color-primary-default",
+                    "iconTintColor": "text-control-color"
+                  },
+                  "focused": {
+                    "borderColor": "color-primary-transparent-focus-border",
+                    "backgroundColor": "color-primary-transparent-focus",
+                    "outlineBackgroundColor": "outline-color"
+                  },
+                  "checked.focused": {
+                    "borderColor": "color-primary-focus-border",
+                    "backgroundColor": "color-primary-focus"
+                  },
+                  "hover": {
+                    "borderColor": "color-primary-transparent-hover-border",
+                    "backgroundColor": "color-primary-transparent-hover"
+                  },
+                  "checked.hover": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "transparent"
+                  },
+                  "active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "transparent",
+                    "outlineBackgroundColor": "transparent"
+                  },
+                  "checked.active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "transparent",
+                    "outlineBackgroundColor": "transparent"
+                  },
+                  "disabled": {
+                    "borderColor": "color-basic-transparent-disabled-border",
+                    "backgroundColor": "color-basic-transparent-disabled",
+                    "textColor": "text-disabled-color"
+                  },
+                  "checked.disabled": {
+                    "borderColor": "color-basic-transparent-600",
+                    "backgroundColor": "color-basic-transparent-600"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
